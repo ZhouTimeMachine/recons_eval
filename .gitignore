@@ -1,0 +1,39 @@
+# local settings
+.vscode
+
+# scripts in development
+/cover
+
+# runtime files without additional information
+**/__pycache__/
+cache
+batchscript-*
+
+# with information, but uncessary to remote
+/checkpoints
+/ckpts
+/data
+/evaluations
+/logs
+/inputs
+/outputs
+/thirdparty
+/trainlog
+/tmp
+/datasets/info
+
+# files are probably not needed
+*.pyc
+*.egg-info
+*.pt
+*.pth
+*.zip
+*.tar.gz
+*.render*
+*.ply
+*.npy
+*.png
+*.log
+*.jpg
+*.so
+*.o
