@@ -101,3 +101,7 @@ If you find our work useful, please consider citing:
       url={https://arxiv.org/abs/2507.13347}, 
 }
 ```
+
+## License
+
+This project is licensed under CC BY-NC-SA 4.0 License. See the LICENSE file and https://creativecommons.org/licenses/by-nc-sa/4.0/ for details.
