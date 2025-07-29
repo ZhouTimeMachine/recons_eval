@@ -1,5 +1,9 @@
 # Evaluation for Reconstruction
 
+A unified evaluation framework for 3D reconstruction, used in [π³](https://arxiv.org/abd/2507.13347).
+
+This repo includes unofficial inference of some popular methods (e.g. [VGGT](https://github.com/facebookresearch/vggt), [MoGe](https://github.com/microsoft/MoGe)), if authors of these methods have any concerns about our implementation, please feel free to pull request or issue. (pull request is welcome!)
+
 ## Evaluation Overview
 
 - [x] Monocular Depth Estimation
@@ -75,6 +79,7 @@ python mv_recon/eval.py
 
 Our work mainly builds upon:
 
+- [DUSt3R](https://github.com/naver/dust3r)
 - [MonST3R](https://github.com/Junyi42/monst3r)
 - [Spann3R](https://github.com/HengyiWang/spann3r)
 - [CUT3R](https://github.com/CUT3R/CUT3R)
