@@ -38,7 +38,7 @@ python monodepth/eval.py
 
 ## 2. Video Depth Estimation
 
-configs in `configs/evaluation/videodepth.yaml`, see [videodepth/README.md](videodepth/README.md) for more details.ß
+configs in `configs/evaluation/videodepth.yaml`, see [videodepth/README.md](videodepth/README.md) for more details.
 
 ```bash
 python videodepth/infer.py

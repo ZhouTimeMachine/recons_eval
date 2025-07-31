@@ -31,7 +31,7 @@ def load_seq_cameras(example_path: str) -> Tuple[List[List[float]], List[List[Li
 MODE = "test"
 RE10K_METAROOT = "data/re10k/metadata"
 OUTPUT_ROOT = "data/re10k"
-SEQUENCE_LIST_FILE = "/mnt/petrelfs/zhoujianjun/work/recons-eval/datasets/re10k_test_1719.txt"
+SEQUENCE_LIST_FILE = "datasets/sequences/re10k_test_1719.txt"
 
 with open(SEQUENCE_LIST_FILE, "r") as f:
     sequence_list = f.read().splitlines()

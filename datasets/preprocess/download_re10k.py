@@ -8,6 +8,11 @@ However, some of the youtube videos are not available now, so we evaluate [Pi3](
 
 You may run into 403 error when downloading youtube videos, please refer to original pytube/pytubefix repo for help or use other downloader like yt-dlp.
 However, this script works for us when doing evaluation for [Pi3](https://github.com/yyfz/Pi3).
+
+For resolutions, most sequences are (640, 360), with a few exceptions:
+3b0b55657925fb34: (640, 272)
+3e034bde9426ae9f: (640, 338)
+2c2cfc0ac780a3aa: (640, 338)
 """
 
 import os
