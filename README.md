@@ -28,7 +28,7 @@ The root config file of all evaluations is `configs/eval.yaml`, however you don'
 
 ## 1. Monocular Depth Estimation
 
-See [monodepth/README.md](monodepth/README.md) for more details.ß
+See [monodepth/README.md](monodepth/README.md) for more details.
 
 ```bash
 python monodepth/infer.py

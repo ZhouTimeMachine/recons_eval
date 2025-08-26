@@ -127,7 +127,7 @@ class SevenScenes(Dataset):
             assert ids.ndim == 1, f"ids should be a 1D array, but got {ids.ndim}D"
             ids = ids.tolist()
 
-        fx, fy, cx, cy = 554.2562584220408, 554.2562584220408, 320, 240  # hard code
+        fx, fy, cx, cy = 525, 525, 320, 240  # hard code
 
         image_paths: list      = [""] * len(ids)
         images: list           = [0]  * len(ids)
